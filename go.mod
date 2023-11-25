@@ -4,6 +4,7 @@ go 1.17
 
 require (
 	github.com/kataras/iris/v12 v12.1.8
+	github.com/streadway/amqp v1.0.0
 	golang.org/x/crypto v0.0.0-20220112180741-5e0467b6c7ce
 	gorm.io/driver/mysql v1.2.3
 	gorm.io/gorm v1.22.5
@@ -52,7 +53,6 @@ require (
 	github.com/sergi/go-diff v1.2.0 // indirect
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
 	github.com/smartystreets/goconvey v1.7.2 // indirect
-	github.com/streadway/amqp v1.0.0 // indirect
 	github.com/stretchr/testify v1.4.0 // indirect
 	github.com/valyala/fasthttp v1.33.0 // indirect
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
